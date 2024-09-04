@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'Bookman Old Style';
+    src: url('/fonts/BookmanOldStyle.woff2') format('woff2'),
+         url('/fonts/BookmanOldStyle.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

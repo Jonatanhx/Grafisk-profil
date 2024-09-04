@@ -5,28 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grafisk profil Jonatan</title>
 </head>
-<body>
-
-    <header class="bg-black">
-        <h1 class="text-white" >Header</h1>
-    </header>
-
-    <div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-1">
-            <div class="hidden lg:block"></div>
-            <img class="object-cover w-full h-auto" src="/assets/suit1.avif" alt="Gray wool suit">
-            <img class="object-cover w-full h-auto" src="/assets/suit2.avif" alt="Navy wool suit">
-            <img class="object-cover w-full h-auto" src="/assets/suit3.avif" alt="Taupe wool suit">
-            <img class="object-cover w-full h-auto" src="/assets/suit4.avif" alt="Taupe linen suit">
-            <img class="object-cover w-full h-auto" src="/assets/suit5.avif" alt="Beige linen suit">
-            <div class="hidden lg:block"></div>
+<body class="bg-black">
+    <header class="bg-[#F7F3E3] flex p-5">
+        <div class="w-10 h-auto mr-5">
+            <img src="./../assets/Icon.png" class="object-cover" alt="">
         </div>
-    </div>
+        <h1 class="flex flex-1 font-bookman text-black items-center text-3xl">Mountaineer</h1>
+    </header>
     
-
-
-    <footer class="bg-black">
-        <h2 class="text-white">Footer</h2> 
+    
+    <main class="flex flex-col flex-1 h-screen">    
+        <sectio id="Gradient">
+            <div id="Beige1" class="flex flex-1 h-4 bg-[#F7F3E3] border-t border-black"></div>
+            <div id="Brown1" class="flex flex-1 h-4 bg-[#B19B78]"></div>
+            <div id="Brown2" class="flex flex-1 h-4 bg-[#AF9164]"></div>
+            <div id="DarkBrown1" class="flex flex-1 h-4 bg-[#2B2118]"></div>
+        </sectio>
+        
+        
+        <section id="Banner">
+            <div class="flex overflow-hidden h-36 relative">
+                <h1 class="absolute w-full h-full flex items-center justify-center text-yellow-500 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-[64px] font-bookman">The tailored experience</h1>
+                <img src="./../assets/tailorBanner.webp" alt="Tailor working on a suit" class="object-cover w-full overflow-hidden">
+            </div>
+            <div id="DarkBrown1" class="flex flex-1 h-6 bg-[#2B2118]"></div>
+        </section>
+        
+        
+        <section id="Product-carousel">
+            <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-1 mt-2">
+                <div class="flex h-full w-full justify-end items-center text-white lg:block size">
+                    <div class="w-12 h-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>          
+                    </div>
+                </div>
+                <img class="object-cover w-full h-auto hover:cursor-pointer" src="/assets/suit1.avif" alt="Gray wool suit">
+                <img class="object-cover w-full h-auto hover:cursor-pointer" src="/assets/suit2.avif" alt="Navy wool suit">
+                <img class="object-cover w-full h-auto hover:cursor-pointer" src="/assets/suit3.avif" alt="Taupe wool suit">
+                <img class="object-cover w-full h-auto hover:cursor-pointer" src="/assets/suit4.avif" alt="Taupe linen suit">
+                <img class="object-cover w-full h-auto hover:cursor-pointer" src="/assets/suit5.avif" alt="Beige linen suit">
+                <div class="hidden lg:block">👉</div>
+            </div>
+        </section>
+    </main>
+        
+    <footer class="bg-[#F7F3E3] flex p-5">
+        <div class="w-10 h-auto mr-5">
+            <img src="./../assets/Icon.png" class="object-cover" alt="">
+        </div>
+        <h1 class="flex flex-1 font-bookman text-black items-center text-3xl">Mountaineer</h1>
     </footer>
 </body>
 </html>
