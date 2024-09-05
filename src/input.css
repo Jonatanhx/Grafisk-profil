@@ -5,9 +5,14 @@
 
 @font-face {
     font-family: 'Bookman Old Style';
-    src: url('/fonts/BookmanOldStyle.woff2') format('woff2'),
-         url('/fonts/BookmanOldStyle.woff') format('woff');
+    src: url('/assets/BOOKOS.TTF') format('ttf');
     font-weight: normal;
     font-style: normal;
   }
-  
+@font-face {
+     font-family: 'Beaufort For LOL';
+     src: url('/assets/BeaufortforLOL-Regular.ttf') format('ttf');
+     font-weight: normal;
+     font-style: normal;
+
+}

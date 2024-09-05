@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         bookman: ['Bookman Old Style', 'serif'],
+        beaufort: ['Beaufort For LOL', 'serif']
       },
     },
   },
