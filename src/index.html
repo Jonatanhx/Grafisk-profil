@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="w-screen">
 <head>
     <link rel="stylesheet" href="./output.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,11 @@
 </head>
 <body class="bg-white">
     <header class="bg-white flex p-5">
-        <div class="w-10 h-auto mr-5">
-            <img src="./../assets/Icon.png" class="object-cover" alt="">
+        <div class="mr-1 sm:mr-2">
+            <img src="./../assets/Icon.png" class="size-12 sm:size-20" alt="Mountaineer brand icon">
         </div>
         <div class="flex items-center">
-            <img src="./../assets/Logo.png" alt="Mountaineer brand logo" class="h-8 w-auto">
+            <img src="./../assets/Logo.png" alt="Mountaineer brand logo">
         </div>
 
 
@@ -35,7 +35,7 @@
         
         <section id="Banner">
             <div class="flex overflow-hidden h-36 relative">
-                <h1 class="absolute w-full h-full flex items-center justify-center text-yellow-500 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-[64px] font-bookman">The tailored experience</h1>
+                <h1 class="absolute w-full h-full flex items-center justify-center text-yellow-500 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-[32px] sm:text-[64px] font-bookman">The tailored experience</h1>
                 <img src="./../assets/tailorBanner.webp" alt="Tailor working on a suit" class="object-cover w-full overflow-hidden">
             </div>
             <div id="DarkBrown1" class="flex flex-1 h-4 bg-[#2B2118]"></div>
@@ -43,63 +43,62 @@
         
         
         <section id="Product-carousel" class="bg-white">
-            <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-8 overflow-hidden">
+            <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-7 lg:grid-cols-7 gap-8 overflow-hidden">
                 <div class="lg:block">
                     <div class="flex justify-end h-full items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 text-black mr-8 hover:cursor-pointer hover:size-14 transition-all duration-300 ease-in-out">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 text-black mr-8 hover:cursor-pointer hover:size-14 transition-all duration-300 ease-in-out hidden sm:block">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                         </svg>
                     </div>
                 </div>
-                <img class="object-cover hover:cursor-pointer h-auto scale-110" src="/assets/suit1.avif" alt="Gray wool suit">
+                <img class="object-cover h-auto hover:cursor-pointer scale-110" src="/assets/suit1.avif" alt="Gray wool suit">
                 <img class="object-cover h-auto hover:cursor-pointer scale-110" src="/assets/suit2.avif" alt="Navy wool suit">
                 <img class="object-cover h-auto hover:cursor-pointer scale-110" src="/assets/suit3.avif" alt="Taupe wool suit">
                 <img class="object-cover h-auto hover:cursor-pointer scale-110" src="/assets/suit4.avif" alt="Taupe linen suit">
                 <img class="object-cover h-auto hover:cursor-pointer scale-110" src="/assets/suit5.avif" alt="Beige linen suit">
-
+        
                 <div class="lg:block">
                     <div class="flex justify-start h-full items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 text-black ml-8 hover:cursor-pointer hover:size-14 transition-all duration-300 ease-in-out">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 text-black ml-8 hover:cursor-pointer hover:size-14 transition-all duration-300 ease-in-out hidden sm:block">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                        </svg>       
+                        </svg>
                     </div>
                 </div>
             </div>
             <div id="DarkBrown1" class="flex flex-1 h-4 bg-[#2B2118]"></div>
         </section>
-
-        <section id="About" class=" bg-white">
-            <div class="flex mx-64">
-                <div class="px-20 pt-4">
-             
+        
+        <section id="About" class="bg-white flex">
+            <div id="empty-div-left" class="flex-1"></div>
+        
+            <div class="flex flex-col max-w-xl">
+                <div class="flex flex-col sm:flex-row items-start border-l border-black">
+                    <div class="pt-4 pl-4">
                         <p class="text-[24px] font-beaufort">Welcome to Mountaineer,</p> 
-                        <p class="font-beaufort text-[15px]">
-
+                        <p class="font-beaufort text-[15px] w-80">
                             where tradition meets elegance. For over 70 years, we have been crafting timeless, hand-made tailored suits for the discerning gentleman. Our commitment to excellence has been the cornerstone of our brand since our inception. Each suit we create is a testament to our dedication to quality, craftsmanship, and the art of tailoring.
                         </p>
-                     
-
-                    <p class="border-b font-beaufort border-black pb-2 text-[15px]">Founded by master tailor Allisson Spencer in 1948, Mountaineer has grown from a small workshop into a renowned name in men's fashion. Our suits are meticulously crafted using only the finest materials, ensuring that every stitch reflects the sophistication and style that our clients deserve.
-                        
-                    </p>
-                </div>
-                <div class="flex justify-end w-full">
+                    </div>
                     <img src="./../assets/AllisonKirbyDavidoff.png" alt="Men smoking cigar indoor" class="w-auto h-64">
                 </div>
             </div>
-            <div id="DarkBrown1" class="flex flex-1 h-4 bg-[#2B2118]"></div>
-        </section>  
-    </main>
         
-    <footer class="bg-white flex p-5 items-center">
+            <div id="empty-div-right" class="flex-1"></div>
+        </section>
+        
+    </main>
+    
+    <div id="DarkBrown1" class="flex flex-1 h-4 bg-[#2B2118]"></div>
+
+    <footer class="bg-white flex flex-col p-5 items-center">
         <div class="w-10 h-auto mr-5">
-            <img src="./../assets/Icon.png" class="object-cover" alt="">
+            <img src="./../assets/Icon.png" class="object-cover" alt="Moutaineer brand icon">
         </div>
         <div class="flex items-center">
-            <img src="./../assets/Logo.png" alt="Mountaineer brand logo" class="h-8 w-auto">
+            <img src="./../assets/Logo.png" alt="Mountaineer brand logo" class=" w-auto size-12">
         </div>
 
-        <section id="Social-Media-Icons" class="flex flex-1 justify-center">
+        <section id="Social-Media-Icons" class="flex flex-1 justify-center m-4">
             <div id="Twitter-Icon">
                 <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" class="size-8 hover:cursor-pointer">
                     <path d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"></path>
@@ -114,7 +113,7 @@
         </section>
 
 
-        <section id="Contact" class="flex flex-row">
+        <section id="Contact" class="flex flex-col sm:flex-row">
             <div id="Phone" class="flex p-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
